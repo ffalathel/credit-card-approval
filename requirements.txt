@@ -5,13 +5,3 @@ pandas
 seaborn
 matplotlib
 scikit-learn
-StandardScaler
-LogisticRegression
-GridSearchCV
-SVC
-RandomForestClassifier
-accuracy_score
-preprocessing
-KNeighborsClassifier
-DecisionTreeClassifier
-train_test_split
