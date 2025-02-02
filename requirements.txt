@@ -1,3 +1,17 @@
 gunicorn
 Flask
 joblib
+pandas
+seaborn
+matplotlib
+sklearn
+StandardScaler
+LogisticRegression
+GridSearchCV
+SVC
+RandomForestClassifier
+accuracy_score
+preprocessing
+KNeighborsClassifier
+DecisionTreeClassifier
+train_test_split
