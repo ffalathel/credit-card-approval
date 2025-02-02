@@ -27,7 +27,7 @@ function App() {
     e.preventDefault();
     try {
       const response = await axios.post("http://127.0.0.1:5000/predict", formData);
-      setResult(response.data.approval);
+      setResult(response.data.approval); // Assuming the response contains an 'approval' field
     } catch (error) {
       console.error(error);
       setResult("Error processing request");
@@ -44,7 +44,7 @@ function App() {
             type="number"
             name="Car_Owner"
             value={formData.Car_Owner}
-            onChange={(e) => handleChange(e)}
+            onChange={handleChange}
             required
           />
         </label>
@@ -54,7 +54,7 @@ function App() {
             type="number"
             name="Propert_Owner"
             value={formData.Propert_Owner}
-            onChange={(e) => handleChange(e)}
+            onChange={handleChange}
             required
           />
         </label>
@@ -64,7 +64,7 @@ function App() {
             type="number"
             name="Annual_income"
             value={formData.Annual_income}
-            onChange={(e) => handleChange(e)}
+            onChange={handleChange}
             required
           />
         </label>
